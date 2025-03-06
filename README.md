@@ -62,5 +62,4 @@
 
 ✅ 플로우 차트
 -------
-<img width="753" alt="Image" src="https://github.com/user-attachments/assets/5277633b-bfbc-423e-a030-4ff5a3437003" />
-
+<img width="679" alt="Image" src="https://github.com/user-attachments/assets/a48fc7c3-ba73-45be-b7aa-5dfda212609f" />
