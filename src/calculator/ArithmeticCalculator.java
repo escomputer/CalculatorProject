@@ -30,18 +30,15 @@ public class ArithmeticCalculator<T extends Number> {
 
 
     public List<Double> getBigResult(String input) {
-        if (input.equalsIgnoreCase("n")) {
-            return null;
-        }
+
         try {
             double big = Double.parseDouble(input);
             List<Double> filteredResults = results.stream()
                     .filter(result -> result > big)
                     .collect(Collectors.toList());
-
             return filteredResults;
         } catch (NumberFormatException e) {
-            System.out.println("숫자가 아닌 값이 입력되었습니다. 다시 입력해주세요.");
+            System.out.println("조회 기능을 건너뜁니다.");
             return null;
         }
 

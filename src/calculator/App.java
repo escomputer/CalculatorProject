@@ -34,14 +34,11 @@ public class App {
 
 
 
-                    System.out.println("입력한 값보다 큰 결과를 조회하려면 값을 입력하세요. (건너뛰려면 n을 입력하세요)");
+                    System.out.println("입력한 값보다 큰 결과를 조회하려면 값을 입력하세요. (건너뛰려면 숫자가 아닌 값을 입력하세요)");
 
                     String input = sc.next();
 
-                    if (input.equalsIgnoreCase("n")) {
-                        System.out.println("조회 기능을 건너뜁니다.");
 
-                    }
 
                     List<Double> bigResults = calculator.getBigResult(input);
 
@@ -66,6 +63,7 @@ public class App {
             System.out.print("연산을 계속 하시겠습니까? ( exit 입력 시, 종료) : ");
             String answer = sc.next();
             if (answer.equals("exit")) {
+                System.out.println("계산기가 종료됩니다.");
                 break;
             }
 
