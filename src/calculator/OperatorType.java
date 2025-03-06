@@ -1,5 +1,6 @@
 package calculator;
 
+import java.util.Arrays;
 import java.util.function.*;
 
 public enum OperatorType {
@@ -21,14 +22,13 @@ public enum OperatorType {
         return operation.apply(a,b);
     }
 
-    public static OperatorType inputOp(String operator){
-        for (OperatorType compareOp : values()){
-            if (compareOp.operator.equals(operator)){
-                return compareOp;
-            }
-        }
-        throw new IllegalArgumentException("잘못된 연산자입니다.");
+    public static OperatorType inputOp(String operator) {
+        return Arrays.stream(values())
+                .filter(op -> op.operator.equals(operator))
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("잘못된 연산자입니다."));
     }
+
 
     public static double safeDivide(double a, double b){
         if(b==0) throw new ArithmeticException("0으로 나눌 수 없습니다.");
