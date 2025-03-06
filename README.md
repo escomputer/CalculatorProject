@@ -50,5 +50,13 @@
 
 💖 예제 실행 결과
 ---------------
+<b>❣️ 오류 3종 세트 </b>
 
+<img width="384" alt="Image" src="https://github.com/user-attachments/assets/dd22ac95-7087-4568-9044-67ef7eb553a7" /> <br><br>
+<b>❣️ 조회 기능 건너뛰기</b>
+
+<img width="568" alt="Image" src="https://github.com/user-attachments/assets/8e280d24-c9f4-4a6e-a1f1-456b6a78c6ef" /><br><br>
+<b>❣️ FIFO 기능 + exit 입력시 계산기 종료 기능 + 입력한 값보다 큰 결과 조회</b>
+
+<img width="594" alt="Image" src="https://github.com/user-attachments/assets/cdff4db9-2a94-4b7c-810a-bea5d046b425" />
 
