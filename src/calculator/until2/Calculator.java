@@ -1,4 +1,4 @@
-package calculator;
+package calculator.until2;
 
 
 import java.util.ArrayList;
@@ -7,15 +7,14 @@ public class Calculator {
     private static final ArrayList<Double> results = new ArrayList<>();
     private static final int MAX_SIZE = 5;
 
-    public double calculate(int a, int b, char op) {
+    public double calculate(int a, int b, char operator) {
 
 
-        switch (op) {
+        switch (operator) {
             case '+':
                 return a + b;
             case '-':
                 return a - b;
-
             case '*':
                 return a * b;
             case '/':
@@ -41,7 +40,7 @@ public class Calculator {
         }
     }
 
-    public ArrayList<Double> getResult(){
+    public ArrayList<Double> getResult() {
         return new ArrayList<>(results);
     }
 
