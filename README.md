@@ -60,3 +60,7 @@
 
 <img width="594" alt="Image" src="https://github.com/user-attachments/assets/cdff4db9-2a94-4b7c-810a-bea5d046b425" />
 
+✅ 플로우 차트
+-------
+<img width="753" alt="Image" src="https://github.com/user-attachments/assets/5277633b-bfbc-423e-a030-4ff5a3437003" />
+
